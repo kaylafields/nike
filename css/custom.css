@@ -1,0 +1,292 @@
+/* colors */
+.dark {
+    background-color: #111111!important;
+}
+.grey {
+    color: #767676;
+}
+.light {
+   background-color: #f6f6f6!important;
+}
+
+/* main typography */
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 62px;
+    letter-spacing: 0.01em;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.05rem;
+    font-size: 45px;   
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    letter-spacing: 0.06rem;
+}
+
+p {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: .07rem;
+}
+
+a {
+    color: #222;
+}
+
+a:hover {
+    color: #222;
+}
+
+.small {
+    font-size:14px;
+    letter-spacing: .04em;
+}
+
+.medium {
+    font-size:19px;
+    letter-spacing: .04em;
+    
+}
+.oswald-sm {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.05em;
+}
+
+/* forms and buttons */
+
+
+.form-control {
+    font-weight: 400;
+    letter-spacing: .05rem;
+    font-size:14px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 1.8;
+    border: 1px solid #ebebeb;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:2px;
+}
+
+button {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size:14px;
+    font-weight: 700;
+    background-color: #fff;
+    border-color: #e5e5e5;
+    height: 50px;
+    min-width: 250px;
+    line-height: 38px;
+    padding: 0 20px;
+    border-radius: 3px;
+    text-align:center;
+}
+
+
+/* navigation */
+.navbar-brand {
+    width: 60px;
+}
+
+
+.sub-nav-list  {
+    border-right: solid 2px;
+}
+
+.sub-nav-list:last-child {
+    border-right: none;
+}
+
+/* masthead */
+.masthead {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .masthead video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+.masthead .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* this weeks picks */
+.img-hover{
+    transition: box-shadow .3s;
+    border-radius:5px;
+}
+
+.img-hover:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.product-cat{
+    margin-top: -10px;
+    font-size: 13px;
+    color: #999999;
+}
+
+.product-cat a {
+    color: #999999;
+}
+
+
+/* half and half */
+.promo-2 {
+    background-image: url(/assets/images/zoom-fly.jpg);
+}
+
+.promo-3 {
+    background-image: url(/assets/images/true-to-these-colors.jpg);
+}
+
+
+.half-page {
+    object-fit: cover;
+    height: 700px;
+    padding: 40px;
+}
+
+.text-block-half {
+    margin-top:430px;   
+}
+
+.half-one {
+    margin: 20px 10px 0px 0px;
+}
+
+.half-two {
+    margin: 20px 0px 0px 10px;
+}
+
+.promo-1 {
+    background-image: url(/assets/images/nike_still.png);
+}
+
+.banner-container {
+    background-size: cover;
+    background-position:center;
+    height: 700px;   
+}
+
+.of {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+@media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('https://nikevideo.nike.com/72451143001/201809/3484/72451143001_5831212651001_5831211197001.mp4') black no-repeat center center scroll;
+    }
+    header video {
+      display: none;
+    }
+}
+@media (max-width: 768px) { 
+
+    h1 {
+        font-size: 50px;
+    }
+   
+    .sticky-top{
+        position:static;
+    }
+
+    .navbar-toggler {
+        margin:auto;
+    }
+    .sub-nav-list  {
+        font-size: 14px;
+        padding: 7px 30px 7px 30px !important;
+        margin: 0px 5px;
+        border-radius:2px;
+        border:solid 1px;
+        text-decoration: none;
+        letter-spacing: .04em;
+    }
+    
+    .sub-nav-list:last-child {
+        border:solid 1px;
+    }
+
+    .product-title {
+        margin-top: 5px;
+        padding:10px;
+    }
+
+    .product-title p {
+        font-size: .70rem;
+    }
+
+    .row img {
+        display: block;
+      }
+
+
+    .cta-section p {
+        margin-top: 5px;
+        width: 320px; 
+    }
+
+    .this-week-picks h3 {
+        text-align: center;
+    }
+
+    
+    .text-block-half {
+        text-align: center !important;
+        margin-top: 250px;
+
+    }
+
+    .half-page {
+        background-size: cover;
+        background-position:center;
+        height: 500px;
+        padding: 40px;
+    
+    }
+
+    .half-one {
+        margin: 20px 0px 0px 0px;
+    }
+    
+    .half-two {
+        margin: 10px 0px 0px 0px;
+
+    }
+
+    .banner-container {
+        background-position:right;
+        height: 500px;
+        text-align: center;
+    }
+
+ }
+ 
+    
