@@ -51,8 +51,7 @@ a:hover {
 
 .medium {
     font-size:19px;
-    letter-spacing: .04em;
-    
+    letter-spacing: .04em;   
 }
 .oswald-sm {
     font-family: 'Oswald', sans-serif;
@@ -94,7 +93,6 @@ button {
 .navbar-brand {
     width: 60px;
 }
-
 
 .sub-nav-list  {
     border-right: solid 2px;
@@ -212,11 +210,9 @@ button {
     h1 {
         font-size: 50px;
     }
-   
     .sticky-top{
         position:static;
     }
-
     .navbar-toggler {
         margin:auto;
     }
@@ -229,7 +225,6 @@ button {
         text-decoration: none;
         letter-spacing: .04em;
     }
-    
     .sub-nav-list:last-child {
         border:solid 1px;
     }
@@ -238,16 +233,12 @@ button {
         margin-top: 5px;
         padding:10px;
     }
-
     .product-title p {
         font-size: .70rem;
     }
-
     .row img {
         display: block;
-      }
-
-
+    }
     .cta-section p {
         margin-top: 5px;
         width: 320px; 
@@ -257,11 +248,9 @@ button {
         text-align: center;
     }
 
-    
     .text-block-half {
         text-align: center !important;
         margin-top: 250px;
-
     }
 
     .half-page {
@@ -269,7 +258,6 @@ button {
         background-position:center;
         height: 500px;
         padding: 40px;
-    
     }
 
     .half-one {
@@ -278,7 +266,6 @@ button {
     
     .half-two {
         margin: 10px 0px 0px 0px;
-
     }
 
     .banner-container {
